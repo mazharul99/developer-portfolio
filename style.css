@@ -6,11 +6,15 @@ body{
 h1{
     font-size: 45px;
 }
+
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color:orange;
 }
 
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 150px;
 }
@@ -49,4 +53,18 @@ p{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
